@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import productData from '../../products.json'
+import productData from '../../../public/products.json'
 import SelectedCategory from './SelectedCategory'
 
 const Banner = () => {

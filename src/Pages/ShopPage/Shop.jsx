@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Data from '../../products.json'
+import Data from '../../../public/products.json'
 import PageHeader from '../../components/PageHeader'
 import ProductCard from '../../components/shop/ProductCard'
 import Pagination from '../../components/shop/Pagination'
