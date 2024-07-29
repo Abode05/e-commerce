@@ -22,6 +22,8 @@ const SinglePageProduct = () => {
     fetch('/products.json')
       .then((res) => res.json())
       .then((data) => setProduct(data))
+      .catch((error) => console.error('Error fetching data:', error))
+
   }, [])
 
   const result = product.filter((p) => p.id === id)
