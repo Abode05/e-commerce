@@ -4,13 +4,7 @@ import Ratting from '../Ratting'
 import { Link } from 'react-router-dom'
 import { ShoppingCart } from 'lucide-react'
 
-// وظيفة لإضافة تقييم عشوائي بين 1 و 4 لكل منتج
-// const addRandomRatings = (products) => {
-//   return products.map((product) => ({
-//     ...product,
-//     ratting: Math.floor(Math.random() * 5) + 1,
-//   }))
-// }
+
 
 const CategoryShowCase = () => {
   const [items, setItems] = useState([])
@@ -25,9 +19,9 @@ const CategoryShowCase = () => {
       return currItem.cate === categItem
     })
     if (categItem === 'all') {
-      setItems(addRandomRatings(ProductData))
+      setItems(ProductData)
     } else {
-      setItems(addRandomRatings(updatedItems))
+      setItems(updatedItems)
     }
   }
 

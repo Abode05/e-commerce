@@ -34,7 +34,7 @@ const About = () => {
                 <h3 className="text-2xl font-semibold text-gray-900">
                   Our Team
                 </h3>
-                <p className="mt-4 text-lg text-gray-500">
+                <p className="mt-2 text-lg text-gray-600">
                   We have a diverse team of professionals dedicated to making a
                   difference. Our team works together to design and deliver the
                   best solutions for our clients.
@@ -43,7 +43,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="mb-10">
+          <div className="mb-8">
             <div className="flex flex-col lg:flex-row items-center">
               <div className="lg:w-1/2 p-4 lg:order-2">
                 <img
@@ -56,7 +56,7 @@ const About = () => {
                 <h3 className="text-2xl font-semibold text-gray-900">
                   Our Mission
                 </h3>
-                <p className="mt-4 text-lg text-gray-500">
+                <p className="mt-2 text-gray-600 text-lg">
                   Our mission is to innovate and lead the market with our
                   cutting-edge products. We aim to provide exceptional value and
                   exceed customer expectations in every project we undertake.
@@ -138,7 +138,7 @@ const About = () => {
                   <h4 className="text-xl font-semibold text-gray-900">
                     Michael Brown
                   </h4>
-                  <p className="text-gray-600">Head of Development</p>
+                  <p className="text-gray-500 fon-bold">Head of Development</p>
                 </div>
               </div>
             </div>
