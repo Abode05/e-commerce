@@ -19,7 +19,7 @@ const SinglePageProduct = () => {
   const { id } = useParams()
 
   useEffect(() => {
-    fetch('/public/products.json')
+    fetch('/products.json')
       .then((res) => res.json())
       .then((data) => setProduct(data))
   }, [])
